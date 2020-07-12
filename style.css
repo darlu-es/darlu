@@ -489,3 +489,9 @@ div.aligncenter {
   margin-left: 1.0rem;
   vertical-align: baseline;
 }
+
+/* MP highlight text */
+::selection {
+background-color: #FB4B34;
+
+}

@@ -492,6 +492,7 @@ div.aligncenter {
 
 /* MP highlight text */
 ::selection {
+color: white;
 background-color: #FB4B34;
 
 }

@@ -385,6 +385,7 @@ div.aligncenter {
     box-shadow: none !important;
     text-shadow: none !important
   }
+
   nav, video, header.site-header, title {
     display: none;
   }
@@ -430,14 +431,13 @@ div.aligncenter {
  */
 p,
 figcaption {
-    -epub-hyphens: auto;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    hyphens: auto;
+  -epub-hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
 }
 
 /*end media print */
-
 .navigation {
   margin: 64px 0 32px 0;
 }
@@ -514,13 +514,11 @@ figcaption {
 
 /* MP highlight text */
 ::selection {
-color: white;
-background-color: #FB4B34;
-
+  color: white;
+  background-color: #FB4B34;
 }
 
 /* Librería */
-
 .post-book {
   width: 33%;
   display: inline-table;

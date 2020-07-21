@@ -498,66 +498,49 @@ background-color: #FB4B34;
 
 }
 
-/* Libros */
-.book-container {
-  --rotate: -10deg;
-  --rotateHover: -20deg;
-  --perspective: 600px;
-  --transitionDuration: 1s;
-  --radius: 2px;
-  --thickness: 15px;
-  --bgColor: #01060f;
-  --width: 200px;
+/* Librería */
+
+.post-book {
+  width: 33%;
+  display: inline-table;
 }
 
-.book-container {
-  display: flex;
-  justify-content: center;
-  padding: 20px 30px;
+.post-book h4 {
+  margin-bottom: 0.25rem;
 }
 
-.book-container:hover {
-  --rotate: var(--rotateHover);
+.post-book article {
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #DFE2E5;
 }
 
-.book {
-  margin-left: calc(-15px - var(--thickness));
-  background: var(--bgColor);
-  transform: perspective(var(--perspective)) rotateY(var(--rotate));
-  transition: transform ease var(--transitionDuration);
-  position: relative;
+.post-book article:last-child {
+  border-bottom: none;
 }
 
-.book img {
-  margin: 0;
-  width: var(--width);
-  height: auto;
-  border-radius: var(--radius);
+.post-book ul {
+  margin-top: 0;
+  padding-left: 0;
+  list-style: none;
 }
 
-.book:before,
-.book:after {
-  position: absolute;
-  top: calc(1.5% + var(--thickness) / 7.5);
-  height: calc(97.5% - var(--thickness) / 2.5);
-  content: ' ';
-  z-index: -1;
+.post-book li.hentry {
+  margin-bottom: 0.5rem;
+  vertical-align: top;
 }
 
-.book:before {
-  width: 100%;
-  top: calc(2% + var(--thickness) / 7.5);
-  height: calc(97.5% - var(--thickness) / 1.75);
-  left: calc(var(--thickness) + 2px);
-  background-color: var(--bgColor);
-  box-shadow: 5px 5px 20px #333;
-  border-radius: var(--radius);
+.post-book .entry-title {
+  display: inline-block;
+  width: 320px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  vertical-align: top;
 }
 
-.book:after {
-  width: var(--thickness);
-  left: 100%;
-  background-color: #efefef;
-  box-shadow: inset 0px 0px 5px #aaa;
-  transform: perspective(100px) rotateY(20deg);
+.post-book time {
+  display: inline-block;
+  margin-left: 1.0rem;
+  vertical-align: baseline;
 }

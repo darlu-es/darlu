@@ -328,7 +328,7 @@ article footer p {
 }
 
 .page-title {
-  margin-bottom: 32px;
+  margin-bottom: 2px;
 }
 
 .page-title h5 {
@@ -447,7 +447,8 @@ div.aligncenter {
 }
 
 .post-index {
-  width: 100%;
+  width: 45%;
+  display: inline-table;
 }
 
 .post-index h4 {

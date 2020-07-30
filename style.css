@@ -246,12 +246,12 @@ table.center th, table.center td {
 
 .entry-header {
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .entry-meta {
   margin: -0.5rem 0 2.0rem 0;
   font-size: 0.9rem;
-  text-align: center
 }
 
 .entry-content ol, .entry-content ul {

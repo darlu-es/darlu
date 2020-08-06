@@ -256,7 +256,8 @@ table.center th, table.center td {
 
 .entry-content ol, .entry-content ul {
   max-width: 100%;
-  padding: 0 0 0 1.0rem;
+  margin-left: 90px;
+  margin-right: 90px;
 }
 
 .entry-content ul li, .entry-content ol li {
@@ -270,6 +271,12 @@ table.center th, table.center td {
   margin-right: 90px;
   hyphens: auto;
   text-indent: 24px;
+}
+
+.entry-content blockquote {
+  max-width: 100%;
+  margin-left: 90px;
+  margin-right: 90px;
 }
 
 @media screen and (max-width: 900px) {

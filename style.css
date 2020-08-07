@@ -330,6 +330,14 @@ table.center th, table.center td {
   .TOC {
   	width: 100%;
   }
+
+  .note, .warn, .error {
+      margin: 2.0rem 0;
+      width: 100%;
+      border-radius: .2rem;
+      overflow-wrap: break-word;
+      padding: .4rem 0.8rem;
+  }
 }
 
 .entry-content dl {
@@ -593,6 +601,29 @@ figcaption {
 .entry-content-book p {
   margin: 1.0rem 0 1.5rem 0;
   max-width: 100%;
+}
+
+/* custom Admonition-style "note", "warn", "error" blocks */
+@media screen and (min-width: 901px) {
+  .note, .warn, .error {
+	  position: relative;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: .4rem 0.8rem;
+    border-radius: .2rem;
+  }
+}
+.note {
+    border-left: 1.2rem solid rgba(68,138,255,.4);
+    background-color: rgba(68,138,255,.15);
+}
+.warn {
+    border-left: 1.2rem solid rgba(255,145,0,.4);
+    background-color: rgba(255,145,0,.15);
+}
+.error {
+    border-left: 1.2rem solid rgba(255,23,68,.4);
+    background-color: rgba(255,23,68,.15);
 }
 
 /* print css debe ir al final */

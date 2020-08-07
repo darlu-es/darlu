@@ -27,6 +27,7 @@ body {
 a, a:visited, label.margin-toggle {
   color: #FB4B34;
   text-decoration: none;
+  text-shadow: 0 0 5px #000;
 }
 
 a:hover, label.margin-toggle:hover {

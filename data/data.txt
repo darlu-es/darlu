@@ -1,0 +1,2 @@
+id,date,sleep,run_time,run_distance,steps,weight,kcal
+1,2020-08-10,8,25,5,5000,70,2700

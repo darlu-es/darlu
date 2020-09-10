@@ -40,7 +40,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
  /*------------------------------------*\
    #GLOBAL
  \*------------------------------------*/
- 
+
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -659,6 +659,61 @@ figcaption {
 }
 
 .entry-content-book p {
+  margin: 1.0rem 0 1.5rem 0;
+  max-width: 100%;
+}
+
+/* Social */
+.post-social {
+  width: 33%;
+  display: inline-table;
+}
+
+.post-social h4 {
+  margin-bottom: 0.25rem;
+}
+
+.post-social h2 {
+  margin-left: 125px;
+}
+
+.post-social article {
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #DFE2E5;
+}
+
+.post-social article:last-child {
+  border-bottom: none;
+}
+
+.post-social ul {
+  margin-top: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.post-social li.hentry {
+  margin-bottom: 1.5rem;
+  vertical-align: top;
+  border-left: 0.3rem solid #e91f05;
+  padding-left: 1.0rem;
+}
+
+.post-social .entry-social {
+  display: inline-block;
+  width: 320px;
+  overflow: visible;
+  vertical-align: top;
+}
+
+.post-social time {
+  display: inline-block;
+  margin-left: 1.0rem;
+  vertical-align: baseline;
+}
+
+.entry-content-social p {
   margin: 1.0rem 0 1.5rem 0;
   max-width: 100%;
 }
